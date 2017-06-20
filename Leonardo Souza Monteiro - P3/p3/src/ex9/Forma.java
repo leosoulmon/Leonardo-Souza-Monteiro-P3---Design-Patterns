@@ -9,12 +9,7 @@ package ex9;
  *
  * @author Usuário
  */
-public class ex9 {
-    
-    public static void main(String[] args) {
-        QuadrilateroProxy p = new QuadrilateroProxy(2, 2);
-        p.calculavel();
-        p.incalculavel();
-    }
-    
+interface Forma {
+    void calculavel();
+    void incalculavel();
 }
